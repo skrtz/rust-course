@@ -1,5 +1,5 @@
 [package]
-name = "about_me"
+name = "variables_mutability"
 version = "0.1.0"
 edition = "2024"
 

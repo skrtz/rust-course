@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "about_me"
+name = "variables_mutability"
 version = "0.1.0"
