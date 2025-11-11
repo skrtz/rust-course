@@ -1,9 +1,13 @@
-
-
 fn main() {
-    let apples = 50;
-    let oranges = 14 + 6;
-    let _fruits = apples + oranges;
+    let grams_of_protein = "100.345";
 
-    println!("This year, my garden has {0} apples and {1} oranges.", apples, oranges);
+    println!("{grams_of_protein}");
+
+    let mut grams_of_protein = 100;
+
+    println!("{grams_of_protein}");
+
+    grams_of_protein = 106;
+
+    println!("{grams_of_protein}");
 }
