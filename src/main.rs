@@ -1,13 +1,7 @@
+type Meters = i32;
+
 fn main() {
-    let grams_of_protein = "100.345";
-
-    println!("{grams_of_protein}");
-
-    let mut grams_of_protein = 100;
-
-    println!("{grams_of_protein}");
-
-    grams_of_protein = 106;
-
-    println!("{grams_of_protein}");
+    let mile_race_meters: Meters = 1600;
+    let two_mile_race_meters: Meters = 3200;
+    println!("A one mile race it {mile_race_meters} long, and a two mile race is {two_mile_race_meters} long."); 
 }
