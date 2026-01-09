@@ -1,18 +1,11 @@
-mod instructions;
-const TOUCHDOWN_POINTS: i32 = 6;
 
 fn main() {
-    let season: &str = "Fall";
-    #[allow(warnings)]
-    let mut points_scored: i32 = 32;
-    points_scored = 35;
+    let eight_bit_signed: i8 = -128;
+    let eight_bit_unsigned: u8 = 255;
 
-    let _event_time: String = "06:00".to_string();
-    let event_time: i32 = 6;
+    let sixteen_bit_signed: i16 = -32768;
+    let sixteen_bit_unsigned: u16 = 65535;
 
-    #[allow(unused_variables)]
-    let favorite_beverage = "coffee";
-
-    println!("My favorite season is {0}. The team scored {1} points. A touchdown is worth {2} points. event time is at {3}", season, points_scored, TOUCHDOWN_POINTS, event_time);
-    
+    let thirty_two_bit_signed: i32 = -2147483648;
+    let thirty_two_bit_unsigned: u32 = 4294967295;
 }
