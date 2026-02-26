@@ -1,24 +1,27 @@
-/*
-Intro to Methods
----------------------------------------
-A method is a function that lives on a value.
-It's an action we can ask the value to execute.
-Example:    
-value.method()
----------------------------------------
-*/
 fn main() {
-    // Examples of methods in Rust
-    // Calling methods on integer values
-    let value: i32 = -15;
-    println!("{}", value.abs());
 
-    // Trim whitespace from a string
-    let empty_string: &str = "     my string      ";
-    println!("{}", empty_string.trim());
+    /*
+    String Literals in Rust
+    ---------------------------
+    In Rust, string literals are sequences of characters enclosed in double quotes.
+    They are immutable and have a fixed size known at compile time.
+    String literals can also include escape sequences for special characters. 
+    */
+    let normal_str = "This is a string literal.";
+    let raw_str = r#"This is a raw string literal with a "quote" inside."#;
 
-    // Pass a parameter to a method
-    println!("{}", value.pow(5));
+    println!("{}", normal_str);
+    println!("{}", raw_str);
 
-    println!("{:?}", empty_string.find("my"));
+    /*
+    Escape Sequences
+    ---------------------------
+    Rust supports several escape sequences in string literals:  
+    - \n: Newline
+    - \t: Tab
+    - \\: Backslash
+    - \": Double quote
+    - \r: Carriage return
+    - \0: Null character
+    */
 }
